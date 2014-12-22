@@ -124,12 +124,16 @@ function parse_resume($resume, $level = 1, $title = false)
 <br/>
 
 <?php include('themes/' . $theme . '.php'); ?>
+<hr/>
+<hr/>
 <footer>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                Generated using "Resume-Generator-PHP-YAML", Source Codes available on <a
-                    href="https://github.com/VarunBatraIT/Resume-Generator-PHP-YAML">Github</a>
+                <p class="lead text-center">
+                    Generated using "Resume-Generator-PHP-YAML", Source Codes available on <a
+                        href="https://github.com/VarunBatraIT/Resume-Generator-PHP-YAML">Github</a>
+                </p>
             </div>
         </div>
     </div>
