@@ -5,7 +5,6 @@
 $themes = array('a', 'b');
 shuffle($themes);
 $theme = array_pop($themes);
-$theme = 'a';
 $spyc = new Spyc();
 $resume = $spyc->loadFile('./resume/resume.yml');
 $parser = new \cebe\markdown\GithubMarkdown();
