@@ -19,7 +19,7 @@
                         </div>
                         <div class="col-md-6">
                             <h3>Contact</h3>
-                            <?= parse_resume($profile['links']) ?>
+                            <?= parse_resume($profile['contact']) ?>
                         </div>
                     </div>
                 </div>

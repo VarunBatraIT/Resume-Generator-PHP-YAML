@@ -12,13 +12,13 @@ extract($resume);
 $classes = $classes[rand(0, count($classes) - 1)];
 
 
-function link_implode($delimeter, $array)
+function link_implode($delimiter, $array)
 {
     $new_array = array();
     foreach ($array as $title => $link) {
-        array_push($new_array, "<a href='$link'>$title</a>");
+        array_push($new_array, "<a target='_blank' href='$link'>$title</a>");
     }
-    return implode($delimeter, $new_array);
+    return implode($delimiter, $new_array);
 }
 
 function isAssoc($array)
@@ -39,7 +39,7 @@ function add_links($string)
 {
     global $links;
     foreach ($links as $text => $link) {
-        $string = str_replace($text, "<a target='_blank' class='text-danger' href='$link'>$text</a>", $string);
+        $string = str_replace($text, "<a target='_blank' href='$link'>$text</a>", $string);
     }
     return $string;
 
@@ -57,7 +57,7 @@ function parse_resume($resume, $level = 1, $title = false)
 {
     global $parser;
     $toReturn = '';
-    static $in_li = false;
+    static $in_li = 0;
     if ($level > 6) {
         $level = 6;
     }
@@ -73,10 +73,10 @@ function parse_resume($resume, $level = 1, $title = false)
     }
 
     if (is_array($resume) && !isAssoc($resume)) {
-        if (!$in_li && count($resume) == 1) {
+        if (!$in_li > 0 && count($resume) == 1) {
             $toReturn .= parse_resume(array_pop($resume), $level);
         } else {
-            $in_li = true;
+            $in_li++;
             $toReturn .= '<ul>';
             foreach ($resume as $value) {
                 if (isset($value)) {
@@ -86,7 +86,7 @@ function parse_resume($resume, $level = 1, $title = false)
                 }
             }
             $toReturn .= '</ul>';
-            $in_li = false;
+            $in_li--;
         }
     }
     if (is_array($resume) && isAssoc($resume)) {
