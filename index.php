@@ -115,7 +115,7 @@ function parse_resume($resume, $level = 1, $title = false)
 ?>
 <html>
 <head>
-    <title><?= $profile['name'] ?></title>
+    <title><?= $profile['name'] ?> Resume</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -133,6 +133,21 @@ function parse_resume($resume, $level = 1, $title = false)
         </div>
     </div>
 </footer>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '<?=$analytics['google']?>', 'auto');
+    ga('send', 'pageview');
+</script>
 </body>
 
 </html>
