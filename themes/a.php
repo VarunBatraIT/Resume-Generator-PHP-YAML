@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 text-center">
-                <img src="https://s.gravatar.com/avatar/<?= $profile['gravatar'] ?>?s=300" alt=""/>
+                <img class="img-responsive center-block img-rounded" src="https://s.gravatar.com/avatar/<?= $profile['gravatar'] ?>?s=300" alt=""/>
 
             </div>
             <div class="col-md-6">
