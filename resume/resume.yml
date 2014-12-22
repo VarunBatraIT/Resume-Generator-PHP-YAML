@@ -1,0 +1,123 @@
+profile:
+  name: Varun Batra
+  role: Web Application Consultant
+  address: Gurgaon, Haryana
+  gravatar: cadbf30c078669e0f0933bfab1eacefd
+  links:
+    - [+919887409674](tel:+919887409674)
+    - [CodeVarun@Gmail.com](mailto:CodeVarun@Gmail.com)
+    - [Blog](http://VarunBatra.com/)
+  social:
+    - [Github](https://github.com/VarunBatraIT)
+    - [@VarunBatraIT](https://twitter.com/VarunBatraIT)
+    - [+VarunBatraIT](https://plus.google.com/+VarunBatraIT)
+    - [Facebook](https://www.facebook.com/VarunBatraIT)
+resume:
+  Objective:
+    - To continue my career with an organization that will utilize my management, technical & programming skills to benefit mutual growth and success.
+  'Skills & Abilities':
+      Management & Leadersthip:
+          - Managed a team of 12 PHP/jQuery developers and testers in Ti Apps Pvt. Ltd. The position also involved guiding the team about coding styles and familiarizing them with CI technologies like Fabric, Git etc.
+          - Handled three teams of over 21 guys spread across three different countries, viz., Germany, USA and India, of PHP developers, designers and testers working on a same project
+          - Managed a team of 5 PHP/JS developers in Dreamwares Tech LLP, Nasik and consulted the company in their internal products based on SalesForce & eCommerce.
+      Communication:
+          - Handled Clients in Ti App Pvt. Ltd., Deft Infotech Pvt. Ltd. Communicated with them on a regular basis and explained various technical options available. Prioritized features and bugs based on feedback by following Agile.
+          - Communicated with Developers on a daily basis and made forward looking productive plans, thus anticipating the forthcoming challenges and accordingly guiding them (or researched for the same).
+          - Taken Technical interviews for various companies like Ti Apps, DotSquares, Scientech IT Solutions, Logic Spice and more
+      Technical Skills:
+          - "_Web Environment & Tools:_ LEMP, LAMP, Varnish, Monit, Munin, Git, Fabric, HAProxy"
+          - "_Programming Languages:_ Ruby, PHP, Node.js, Javascript"
+          - "_Libraries and Frameworks:_ Rails, YII, Symfony2, Sails.js, Twig, jQuery, jQuery-ui, Twitter Bootsrap, Polymer"
+          - "_Caching:_ Memoization, APC, File Cache, Fragment Cache, Database Cache"
+          - "_DBMS:_ MySQL, MongoDB"
+          - "_Methodologies:_ BDD, TDD, OOPs, Design Patterns, Agile, Continuous Integration, A/B Testing"
+          - "_Cloud Experience:_ CloudFlare CDN, DigitalOcean, Linode"
+          - "Also have past experience in Dojo, Mootools, Redis, Python, Memcache, Silex, Zend Framework"
+  Experience:
+    Deft Infotech Pvt. Ltd. April 2010 - Present:
+      - Web Application Consultant:
+          - Proposing Technologies of Various Web Applications
+          - Designed Architecture of Various Web Applications
+          - Estimated Man Power and Cost of the Projects
+      - Project Manager:
+          - Client Handling:
+              - BRS Generation
+              - User Experience Flow Diagrams
+              - Taking Feedback
+              - Giving Estimations
+              - Managed 3 clients in three different projects in two timezones
+          - Following Agile:
+              - Conducting SCRUM meeting.
+              - Priortizing tasks
+              - Keeping Backlogs
+              - Checking Estimations
+          - Project Management:
+              - Handling project with teams distributed in three different timezones
+              - Managing 3 different Projects at a same time with 5 team leads
+      - Project Lead:
+          - Lead MightyApe.co.nz project in Zend Framework:
+                - Lead team of 7 guys, 2 in New Zealand, 5 in India.
+                - Coded most of the Backend using Zend Modules
+                - Coded "Product Suggestion"
+          - Lead Trumin Desktop App in Symfony2 Framework:
+              - Bootstraping Frontend
+              - Database Design
+          - Lead NewZealand.com using Composer:
+              - CDN implementation
+              - jQuery
+              - Remote Backend Database with Location Aware Content
+      - Trainer:
+          - Wipro:
+                - Given 3 weeks Training to Wipro (Chennai) in Mootools
+                - Familiarizing team in Javascript and CoffeeScript
+          - Ti Apps Pvt. Ltd.:
+                - Given Training to Ti Apps Pvt. Ltd. in Symfony2
+                - Given Training in OOPs and common Design Pattern
+          - Deft Training:
+                - Given Project Based Summar Training to ITM & Amity Students
+                - Arranged conferrence calls about trending technologies
+                - Given presentation in Continuous Integration
+    Naukri (Infoedge India Pvt. Ltd.) - Jan 2010 - April 2010:
+      - Software Developer and Consultant:
+          - Development of WAP site for Naukri.
+          - Wrote filter in Symfony to stop Crawl attacks.
+          - Extracted and Rearranged logs in meaningful way.
+    A&A Communications - June 2009 - Jan 2010:
+      - Software Developer:
+          - Speaking directly to clients for requirements
+          - Creating and Managing Various Website
+  Notable Projects as a Coder:
+      - CourseFinders.com: Ultimate database of Schools focusing on learning new language in foreign countries. Designed Architecture with distributed databases. Bootstrapping the Web Application in YII for its RBAC, Caching APIs and implemented Google Maps API loading results through AJAX with zoom in/out depending on the area of map visible. Used BDD using Behat. Implemented advanced search hints using Solr which changes in background of image per country.
+      - Trumin: Tool to manage races, track time and record results. Made architecture, Bootstrapping the Application & optimized codes for handling high traffic for one day registration in Symfony2 using various caching techniques. Setup server with LAMP in Amazon AWS. This is a Server-Client model, a client which would be run in 5 to 10 laptops communicating with a center database where race would happen and it would communicate with trumin.com using REST API to verify registrations, purchases and to signing of a waiver.
+      - MightyApe.co.nz: eCommerce website; Bootstrapping custom shopping cart using Zend Modules. Created custom backend for vendors and super admin. Setup the server with LEMP and Varnish.
+      - m.Naukri.com: Job Portal Developed mobile version of naukri.com website using "Job Search API" provided by them and used Yahoo Blueprints during my stint at Naukri (InfoEdge India) as a consultant.
+  Interests:
+    - Reading Blogs
+    - Coding
+    - Chess
+    - Documentaries
+    - Biking
+  Education:
+    - B.Tech. from Kurukshetra University (2005-2009)
+  RECOMMENDATIONS:
+    - Various recommendations/testimonials from my past clients are available on my LinkedIn Profile.
+meaningful_words:
+  - REST
+  - BDD
+  - Design Patterns
+  - Agile
+  - Varnish
+  - LAMP
+  - LEMP
+  - coding styles
+  - LinkedIn Profile
+  - Taken Technical interviews
+classes:
+  -
+    2:
+      title: 'text-uppercase'
+    3:
+      title: 'text-capitalize'
+links:
+  'LinkedIn Profile': 'https://www.linkedin.com/in/varunbatrait'
+  'BRS Generation': 'https://github.com/VarunBatraIT/BRS_Creator'

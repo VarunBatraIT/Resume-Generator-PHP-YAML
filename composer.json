@@ -1,0 +1,15 @@
+{
+    "name": "varunbatrait/resume",
+    "require": {
+        "mustangostang/spyc": "~0.5@dev",
+        "cebe/markdown": "~1.0@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Varun Batra",
+            "email": "codevarun@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
