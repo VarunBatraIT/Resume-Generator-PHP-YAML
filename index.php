@@ -11,7 +11,6 @@ $parser = new \cebe\markdown\GithubMarkdown();
 extract($resume);
 $classes = $classes[rand(0, count($classes) - 1)];
 
-
 function link_implode($delimiter, $array)
 {
     $new_array = array();

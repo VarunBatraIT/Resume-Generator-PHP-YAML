@@ -1,12 +1,16 @@
 <main>
-    <div class="container">
+    <div class="container vcard">
         <div class="row">
             <div class="col-md-6 text-center">
-                <img class="img-responsive center-block img-circle" src="https://s.gravatar.com/avatar/<?= $profile['gravatar'] ?>?s=80" alt=""/>
+                <img class="photo img-responsive center-block img-circle"
+                     src="https://s.gravatar.com/avatar/<?= $profile['gravatar'] ?>?s=80" alt=""/>
 
-                <h1><?= $profile['name'] ?></h1>
-                <h4><?= $profile['role'] ?></h4>
-                <?= $profile['address'] ?>
+                <h1 class="name"><?= $profile['name'] ?></h1>
+                <h4 class="title"><?= $profile['role'] ?></h4>
+
+                <div class="org"> <?= $profile['company'] ?></div>
+                <div class="addr"><?= $profile['address'] ?></div>
+                <div class="url"><?= $profile['website'] ?></div>
             </div>
             <div class="col-md-3">
                 <h3>Social</h3>

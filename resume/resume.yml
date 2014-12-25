@@ -1,15 +1,16 @@
 analytics:
   google: 'UA-53215999-2'
 profile:
-  name: Varun Batra
-  role: Web Application Consultant
-  address: Gurgaon, Haryana
-  gravatar: cadbf30c078669e0f0933bfab1eacefd
+  name: "Varun Batra"
+  role: "Web Application Consultant"
+  address: "Gurgaon, Haryana"
+  gravatar: "cadbf30c078669e0f0933bfab1eacefd"
+  website: "http://varunbatra.com/"
+  company: "Deft Infotech Pvt. Ltd."
   contact:
     - [Skype](varunb.deftinfotech "Add Varun to Skype")
     - [+919887409674](tel:+919887409674)
     - [CodeVarun@Gmail.com](mailto:CodeVarun@Gmail.com)
-    - [Blog](http://VarunBatra.com/)
   social:
     - [Github](https://github.com/VarunBatraIT "Various open souce contributions & projects")
     - [@VarunBatraIT](https://twitter.com/VarunBatraIT)
@@ -101,7 +102,8 @@ resume:
     - Documentaries
     - Biking
   Education:
-    - B.Tech. from Kurukshetra University (2005-2009)
+    - B.Tech. from Kurukshetra University:
+        - **(2005-2009)** Kurukshetra, Haryana, India
   RECOMMENDATIONS:
     - Various recommendations/testimonials from my past clients are available on my LinkedIn Profile.
 meaningful_words:
