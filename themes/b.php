@@ -5,7 +5,7 @@
                 <img class="photo img-responsive center-block img-circle"
                      src="https://s.gravatar.com/avatar/<?= $profile['gravatar'] ?>?s=80" alt=""/>
 
-                <h1 class="name"><?= $profile['name'] ?></h1>
+                <h1 class="fn"><?= $profile['name'] ?></h1>
                 <h4 class="title"><?= $profile['role'] ?></h4>
 
                 <div class="org"> <?= $profile['company'] ?></div>

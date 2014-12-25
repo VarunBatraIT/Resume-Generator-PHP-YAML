@@ -8,7 +8,7 @@
             </div>
             <div class="col-md-6">
                 <div class="text-center">
-                    <h1 class="name"><?= $profile['name'] ?></h1>
+                    <h1 class="fn"><?= $profile['name'] ?></h1>
                     <h4 class="role"><?= $profile['role'] ?></h4>
 
                     <div class="org"> <?= $profile['company'] ?></div>
