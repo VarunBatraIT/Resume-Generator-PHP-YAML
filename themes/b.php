@@ -10,7 +10,7 @@
 
                 <div class="org"> <?= $profile['company'] ?></div>
                 <div class="addr"><?= $profile['address'] ?></div>
-                <div class="url"><?= $profile['website'] ?></div>
+                <div class="url"><a href="<?= $profile['website'] ?>"></a><?= $profile['website'] ?></div>
             </div>
             <div class="col-md-3">
                 <h3>Social</h3>

@@ -13,7 +13,7 @@
 
                     <div class="org"> <?= $profile['company'] ?></div>
                     <div class="addr"><?= $profile['address'] ?></div>
-                    <div class="url"><?= $profile['website'] ?></div>
+                    <div class="url"><a href="<?= $profile['website'] ?>"></a><?= $profile['website'] ?></div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
