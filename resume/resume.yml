@@ -25,8 +25,8 @@ resume:
           - Handled three teams of over 21 guys spread across three different countries, viz., Germany, USA and India, of PHP developers, designers and testers working on a same project
           - Managed a team of 5 PHP/JS developers in Dreamwares Tech LLP, Nasik and consulted the company in their internal products based on SalesForce & eCommerce.
       Communication:
-          - Handled Clients in Ti App Pvt. Ltd., Deft Infotech Pvt. Ltd. Communicated with them on a regular basis and explained various technical options available. Prioritized features and bugs based on feedback by following Agile.
-          - Communicated with Developers on a daily basis and made forward looking productive plans, thus anticipating the forthcoming challenges and accordingly guiding them (or researched for the same).
+          - Handled Clients in Ti App Pvt. Ltd. & Deft Infotech Pvt. Ltd. Communicated with them on a regular basis and explained various technical options available. Prioritized features and bugs based on feedback by following Agile methodologies (**LEAN & SCRUM**).
+          - Communicated with Developers on a daily basis (**SCRUM Meetings**) and made forward looking productive plans, thus anticipating the forthcoming challenges and accordingly guiding them (or researched for the same).
           - Taken Technical interviews for various companies like Ti Apps, DotSquares, Scientech IT Solutions, Logic Spice and more
       Technical Skills:
           - "_Web Environment & Tools:_ LEMP, LAMP, Varnish, Monit, Munin, Git, Fabric, HAProxy"
@@ -45,31 +45,40 @@ resume:
           - Estimated Man Power and Cost of the Projects
       - _Project Manager_:
           - Client Handling:
-              - BRS Generation
+              - Managed 3 clients in three different projects in two timezones
+              - BRS Generation for various projects
               - User Experience Flow Diagrams
               - Taking Feedback
               - Giving Estimations
-              - Managed 3 clients in three different projects in two timezones
           - Following Agile:
-              - Conducting SCRUM meeting.
-              - Priortizing tasks
-              - Keeping Backlogs
+              - Priortizing tasks depending on requirements and availabilities
+              - Conducting SCRUM meetings.
               - Checking Estimations
+              - Maintaining Product & Sprint Backlogs
           - Project Management:
               - Handling project with teams distributed in three different timezones
               - Managing 3 different Projects at a same time with 5 team leads
       - _Project Lead_:
+          - Lead CourseFinders.com project in Yii Framework:
+              - Lead a team of 21 guys in 3 different countries.
+              - Bootstrapping Web Application
+              - Coded most of jQuery part
+              - Coded Review Widget in YII following __SOA__
+              - Worked on REST based suggestion box using __SOLR__ as __SOA__
           - Lead MightyApe.co.nz project in Zend Framework:
-                - Lead team of 7 guys, 2 in New Zealand, 5 in India.
-                - Coded most of the Backend using Zend Modules
-                - Coded "Product Suggestion"
+              - Lead a team of 7 guys, 2 in New Zealand, 5 in India.
+              - Coded most of the Backend using Zend Modules
+              - Coded "Product Suggestion" widget
           - Lead Trumin Desktop App in Symfony2 Framework:
-              - Bootstraping Frontend
+              - Architecture Design
+              - Bootstrapping App
+              - REST Based Design for Race Results
+              - REST Based Design for Profile Information
               - Database Design
           - Lead NewZealand.com using Composer:
+              - Coded Remote Backend with Location Aware Content
               - CDN implementation
-              - jQuery
-              - Remote Backend Database with Location Aware Content
+              - Most of the jQuery/Javascript coding
       - _Trainer_:
           - Wipro:
                 - Given 3 weeks Training to Wipro (Chennai) in Mootools
@@ -77,7 +86,7 @@ resume:
           - Ti Apps Pvt. Ltd.:
                 - Given Training to Ti Apps Pvt. Ltd. in Symfony2
                 - Given Training in OOPs and common Design Pattern
-          - Deft Training:
+          - Deft Infotech Pvt. Ltd.:
                 - Given Project Based Summar Training to ITM & Amity Students
                 - Arranged conferrence calls about trending technologies
                 - Given presentation in Continuous Integration
