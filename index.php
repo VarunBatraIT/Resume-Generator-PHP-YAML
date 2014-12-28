@@ -130,7 +130,7 @@ function parse_resume($resume, $level = 1, $title = false)
         <div class="row">
             <div class="col-md-12">
                 <p class="lead text-center">
-                    Generated using "Resume-Generator-PHP-YAML", Source Codes available on <a
+                    Generated using "VarunBatraIT/Resume-Generator-PHP-YAML", Source Codes available on <a
                         href="https://github.com/VarunBatraIT/Resume-Generator-PHP-YAML">Github</a>
                 </p>
             </div>
