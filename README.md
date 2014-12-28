@@ -25,4 +25,4 @@ Currently there are two themes and are being selected randomly. You can add more
 Example
 -------
 
-resume.yml is parsed to generate [Varun Batra Resume](http://varunbatra.com/ "Varun Batra Resume")
+resume.yml is parsed to generate [Varun Batra Resume](http://resume.varunbatra.com/ "Varun Batra Resume")
