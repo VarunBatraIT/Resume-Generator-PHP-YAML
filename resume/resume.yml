@@ -8,14 +8,14 @@ profile:
   website: "http://varunbatra.com/"
   company: "Deft Infotech Pvt. Ltd."
   contact:
-    - [Skype](varunb.deftinfotech "Add Varun to Skype")
+    - [Skype](VarunBatraIT "Add Varun to Skype")
     - [+918130537533](tel:+918130537533)
     - [CodeVarun@Gmail.com](mailto:CodeVarun@Gmail.com)
   social:
     - [Github](https://github.com/VarunBatraIT "Various open souce contributions & projects")
     - [@VarunBatraIT](https://twitter.com/VarunBatraIT)
     - [+VarunBatraIT](https://plus.google.com/+VarunBatraIT)
-    - [Facebook](https://www.facebook.com/VarunBatraIT)
+      #    - [Facebook](https://www.facebook.com/VarunBatraIT)
 resume:
   Objective:
     - To continue my career with an organization that will utilize my management, technical & programming skills to benefit mutual growth and success.
@@ -24,6 +24,7 @@ resume:
           - Managed a team of 12 PHP/jQuery developers and testers in Ti Apps Pvt. Ltd. The position also involved guiding the team about coding styles and familiarizing them with CI technologies like Fabric, Git etc.
           - Handled three teams of over 21 guys spread across three different countries, viz., Germany, USA and India, of PHP developers, designers and testers working on a same project
           - Managed a team of 5 PHP/JS developers in Dreamwares Tech LLP, Nasik and consulted the company in their internal products based on SalesForce & eCommerce.
+          - Managed a team of 3 PHP/JS developers in Scientech IT Solutions Pvt. Ltd., Kota and consulted the company in their internal products based on SaaS and Google Calendar (Appointments).
       Communication:
           - Handled Clients in Ti App Pvt. Ltd. & Deft Infotech Pvt. Ltd. Communicated with them on a regular basis and explained various technical options available. Prioritized features and bugs based on feedback by following Agile methodologies (**LEAN & SCRUM**).
           - Communicated with Developers on a daily basis (**SCRUM Meetings**) and made forward looking productive plans, thus anticipating the forthcoming challenges and accordingly guiding them (or researched for the same).
@@ -90,6 +91,12 @@ resume:
                 - Given Project Based Summar Training to ITM & Amity Students
                 - Arranged conferrence calls about trending technologies
                 - Given presentation in Continuous Integration
+    Scientech IT Solutions Pvt. Ltd. April 2014 - Present:
+      - _Web Application Consultant_:
+          - Smoothen Deployment of Web Application
+          - Smoothen and automation of releases based on Git Tags
+          - Representing technical analysis of features suggested by users
+          - Designed Architectures
     Naukri (Infoedge India Pvt. Ltd.) - Jan 2010 - April 2010:
       - _Software Developer and Consultant_:
           - Development of WAP site for Naukri.
