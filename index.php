@@ -118,7 +118,7 @@ function parse_resume($resume, $level = 1, $title = false)
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body data-theme="<?= $theme ?>">
 <br/>
 <br/>
 
@@ -150,7 +150,77 @@ function parse_resume($resume, $level = 1, $title = false)
         m.parentNode.insertBefore(a, m)
     })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
     ga('create', '<?=$analytics['google']?>', 'auto');
-    ga('send', 'pageview');
+    //    ga('send', 'pageview');
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+    $(document).ready(function (event) {
+        var body = $('body')
+        ga('send', 'pageview', {
+            'page': '/?theme=' + body.attr('data-theme')
+        });
+
+        var a = new RegExp('/' + window.location.host + '/');
+        $('a').each(function () {
+            if (!a.test(this.href)) {
+                $(this).click(function (event) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    window.open(this.href, '_blank');
+                });
+            }
+        });
+        $('a').click(function (event) {
+            var $this = $(this);
+            ga('send', {
+                'hitType': 'event',          // Required.
+                'eventCategory': 'link',   // Required.
+                'eventAction': 'click',      // Required.
+                'eventLabel': $this.attr('title') || $this.text(),
+                'eventValue': 1
+            });
+        })
+
+        $('a').mouseover(function (event) {
+            var $this = $(this);
+            ga('send', {
+                'hitType': 'event',          // Required.
+                'eventCategory': 'link',   // Required.
+                'eventAction': 'mouseover',      // Required.
+                'eventLabel': $this.attr('title') || $this.text(),
+                'eventValue': 1
+            });
+        })
+
+        //selected text
+
+        function getSelectedText() {
+            try {
+
+                if (window.getSelection) {
+                    return window.getSelection().toString();
+                } else if (document.selection) {
+                    return document.selection.createRange().text;
+                }
+            } catch (e) {
+                return '';
+            }
+            return '';
+        }
+
+        $(body).mouseup(function () {
+            var text = getSelectedText();
+            if (text != '') {
+                ga('send', {
+                    'hitType': 'event',          // Required.
+                    'eventCategory': 'text',   // Required.
+                    'eventAction': 'text selection',      // Required.
+                    'eventLabel': text,
+                    'eventValue': 10
+                });
+            }
+        });
+    })
 </script>
 </body>
 

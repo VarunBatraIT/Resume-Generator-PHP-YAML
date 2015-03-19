@@ -10,7 +10,7 @@ profile:
   contact:
     - [Skype](skype:VarunBatraIT "Add Varun to Skype")
     - [+918130537533](tel:+918130537533)
-    - [CodeVarun@Gmail.com](mailto:CodeVarun@Gmail.com)
+    - [CodeVarun@Gmail.com](mailto:codevarun@gmail.com?subject=Found%20you%20through%20your%20Resume%20Site)
   links:
     - [Github](https://github.com/VarunBatraIT "Various open souce contributions & projects")
     - [LinkedIn](https://www.linkedin.com/in/varunbatrait)
@@ -29,7 +29,7 @@ resume:
           - Handled Clients in The Ti Group Pvt. Ltd. & Deft Infotech Pvt. Ltd. Communicated with them on a regular basis and explained various technical options available. Prioritized features and bugs based on feedback by following Agile methodologies (**LEAN & SCRUM**).
           - Communicated with Developers on a daily basis (**SCRUM Meetings**) and made forward looking productive plans, thus anticipating the forthcoming challenges and accordingly guiding them (or researched for the same).
           - Taken Technical interviews for various companies like The Ti Group, DotSquares, Scientech IT Solutions, Logic Spice and more
-      "[OpenSource Projects](https://github.com/VarunBatraIT?tab=repositories)":
+      "Notable [OpenSource Work](https://github.com/VarunBatraIT?tab=repositories)":
         "[TringTrong](https://github.com/VarunBatraIT/TringTrong)":
           - Technologies: "Node.js"
           - Description: "JSNOP friendly TringTrong is small node based SOA app for getting and retrieving geo data. It saves geo data in mongodb async and sync way"
