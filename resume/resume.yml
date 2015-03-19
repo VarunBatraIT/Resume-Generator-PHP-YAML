@@ -55,7 +55,7 @@ resume:
           - "_Web Environment & Tools:_ LEMP, LAMP, Varnish, Monit, Munin, Git, Fabric, HAProxy"
           - "_Programming Languages:_ Ruby, PHP, Node.js, Javascript"
           - "_Libraries and Frameworks:_ Rails, YII, Symfony2, Sails.js, Twig, jQuery, jQuery-ui, Twitter Bootsrap, Polymer"
-          - "_Caching:_ Memoization, APC, File Cache, Fragment Cache, Database Cache"
+          - "_Caching:_ Memoization, APC, File Cache, Fragment Cache, Database Cache, Russian Doll"
           - "_DBMS:_ MySQL, MongoDB"
           - "_Methodologies:_ BDD, TDD, OOPs, Design Patterns, Agile, Continuous Integration, A/B Testing, [SOA](https://en.wikipedia.org/wiki/Service-oriented_architecture)"
           - "_Cloud Experience:_ CloudFlare CDN, DigitalOcean, Linode"
