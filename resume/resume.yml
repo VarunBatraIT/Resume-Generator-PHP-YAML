@@ -8,13 +8,13 @@ profile:
   website: "http://varunbatra.com/"
   company: "Deft Infotech Pvt. Ltd."
   contact:
-    - [Skype](VarunBatraIT "Add Varun to Skype")
+    - [Skype](skype:VarunBatraIT "Add Varun to Skype")
     - [+918130537533](tel:+918130537533)
     - [CodeVarun@Gmail.com](mailto:CodeVarun@Gmail.com)
-  social:
+  links:
     - [Github](https://github.com/VarunBatraIT "Various open souce contributions & projects")
-    - [@VarunBatraIT](https://twitter.com/VarunBatraIT)
-    - [+VarunBatraIT](https://plus.google.com/+VarunBatraIT)
+    - [LinkedIn](https://www.linkedin.com/in/varunbatrait)
+    - [Download Resume](/resume.pdf)
       #    - [Facebook](https://www.facebook.com/VarunBatraIT)
 resume:
   Objective:

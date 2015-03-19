@@ -18,8 +18,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="col-md-6">
-                            <h3>Social</h3>
-                            <?= parse_resume($profile['social']) ?>
+                            <h3>Links</h3>
+                            <?= parse_resume($profile['links']) ?>
                         </div>
                         <div class="col-md-6">
                             <h3>Contact</h3>

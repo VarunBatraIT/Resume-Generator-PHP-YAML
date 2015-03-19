@@ -13,8 +13,8 @@
                 <div class="url"><a href="<?= $profile['website'] ?>"><?= $profile['website'] ?></a></div>
             </div>
             <div class="col-md-6">
-                <h3>Social</h3>
-                <?= parse_resume($profile['social']) ?>
+                <h3>Links</h3>
+                <?= parse_resume($profile['links']) ?>
                 <h3>Contact</h3>
                 <?= parse_resume($profile['contact']) ?>
             </div>
