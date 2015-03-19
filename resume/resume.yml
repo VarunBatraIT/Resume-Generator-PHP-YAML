@@ -29,6 +29,28 @@ resume:
           - Handled Clients in The Ti Group Pvt. Ltd. & Deft Infotech Pvt. Ltd. Communicated with them on a regular basis and explained various technical options available. Prioritized features and bugs based on feedback by following Agile methodologies (**LEAN & SCRUM**).
           - Communicated with Developers on a daily basis (**SCRUM Meetings**) and made forward looking productive plans, thus anticipating the forthcoming challenges and accordingly guiding them (or researched for the same).
           - Taken Technical interviews for various companies like The Ti Group, DotSquares, Scientech IT Solutions, Logic Spice and more
+      "[OpenSource Projects](https://github.com/VarunBatraIT?tab=repositories)":
+        "[TringTrong](https://github.com/VarunBatraIT/TringTrong)":
+          - Technologies: "Node.js"
+          - Description: "JSNOP friendly TringTrong is small node based SOA app for getting and retrieving geo data. It saves geo data in mongodb async and sync way"
+        "[Organized Edx Download](https://github.com/VarunBatraIT/organized-edx-download)":
+         - Technologies: "Python"
+         - Description: "Organized Videos within separate Week Directories"
+        "[Bower Composer](https://github.com/VarunBatraIT/bower_composer)":
+         - Technologies: "PHP,Bower,Composer"
+         - Description: "Bootstrapping PHP project with the magic of bower and composer."
+        "[jQuery.hurt.js](https://github.com/VarunBatraIT/jquery.hurt.js)":
+         - Technologies: "jQuery"
+         - Description: "A small plugin to warn people when using swear words."
+        "[DeftCart](https://github.com/VarunBatraIT/DeftCart)":
+         - Technologies: "PHP"
+         - Description: "Deadly simple cart that can be used for multiple carts at same time."
+        "[Linkedin-AutoAccept-Invitations](https://github.com/VarunBatraIT/Linkedin-AutoAccept-Invitations)":
+          - Technologies: "Node.js, Selenium"
+          - Description: "It accepts linkedin invitations automatically."
+        "[Deftmigrations](https://github.com/VarunBatraIT/Deftmigrations)":
+                  - Technologies: "YII, PHP"
+                  - Description: "Deftmigrations is coded to be used with Yii framework to generate migration files for table structure and or table data in other words, it can dump whole database."
       Technical Skills:
           - "_Web Environment & Tools:_ LEMP, LAMP, Varnish, Monit, Munin, Git, Fabric, HAProxy"
           - "_Programming Languages:_ Ruby, PHP, Node.js, Javascript"
@@ -38,7 +60,7 @@ resume:
           - "_Methodologies:_ BDD, TDD, OOPs, Design Patterns, Agile, Continuous Integration, A/B Testing, [SOA](https://en.wikipedia.org/wiki/Service-oriented_architecture)"
           - "_Cloud Experience:_ CloudFlare CDN, DigitalOcean, Linode"
           - "Also have past experience in Dojo, Mootools, Redis, Python, Memcache, Silex, Zend Framework"
-  Experience:
+  "Experience":
     Deft Infotech Pvt. Ltd. April 2010 - Present:
       - _Web Application Consultant_:
           - Proposing Technologies of Various Web Applications
