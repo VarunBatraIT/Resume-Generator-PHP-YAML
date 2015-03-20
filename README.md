@@ -26,3 +26,14 @@ Example
 -------
 
 resume.yml is parsed to generate [Varun Batra Resume](http://resume.varunbatra.com/ "Varun Batra Resume")
+
+Google Analytics
+----------------
+
+It tracks following:
+
+* Percent of Resume Viewed (Currently configured as split of 4 i.e. 25, 50, 75, 100
+* H1,H2,H3 headings viewed
+* Selected a particular text
+* Click on links
+* Mouse over links
