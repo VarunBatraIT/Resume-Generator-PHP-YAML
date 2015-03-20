@@ -153,6 +153,7 @@ function parse_resume($resume, $level = 1, $title = false)
     //    ga('send', 'pageview');
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/jquery.inview/0.2/jquery.inview.min.js"></script>
 <script>
     $(document).ready(function (event) {
         var body = $('body')
@@ -219,6 +220,57 @@ function parse_resume($resume, $level = 1, $title = false)
                     'eventValue': 10
                 });
             }
+        });
+        var $window = $(window);
+        var viewPortHeight = window.innerHeight ? window.innerHeight : $window.height();
+        var windowHeight = $window.height();
+        var percentsWindows = []
+        for (var $i = 100; $i >= 0; $i = $i - 20) {
+            percentsWindows.unshift($i);
+        }
+        $(window).on('scroll', function () {
+            var endPoint = $window.scrollTop() + viewPortHeight;
+            var percentScrolled = (endPoint / windowHeight) * 100;
+            for (var $i = 0; $i <= percentsWindows.length; $i++) {
+                if (percentsWindows[$i] <= percentScrolled) {
+                    ga('send', {
+                        'hitType': 'event',          // Required.
+                        'eventCategory': 'reading',   // Required.
+                        'eventAction': 'Scrolled',      // Required.
+                        'eventLabel': percentsWindows[$i],
+                        'eventValue': 1
+                    });
+                    delete percentsWindows[$i];
+                }
+            }
+        });
+//        $("*:header").each(function () {
+        $("h1,h2,h3").each(function () {
+            var $this = $(this);
+            $this.one('inview', function (event, visible, topOrBottomOrBoth) {
+                var $this = $(this);
+                if (visible == true) {
+                    ga('send', {
+                        'hitType': 'event',          // Required.
+                        'eventCategory': 'reading',   // Required.
+                        'eventAction': 'Headings',      // Required.
+                        'eventLabel': $this.text(),
+                        'eventValue': 1
+                    });
+                    console.log($(this).text())
+                    // element is now visible in the viewport
+                    if (topOrBottomOrBoth == 'top') {
+                        // top part of element is visible
+                    } else if (topOrBottomOrBoth == 'bottom') {
+                        // bottom part of element is visible
+
+                    } else {
+                        // whole part of element is visible
+                    }
+                } else {
+                    // element has gone out of viewport
+                }
+            });
         });
     })
 </script>
