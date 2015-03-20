@@ -237,14 +237,21 @@ function parse_resume($resume, $level = 1, $title = false)
                         'hitType': 'event',          // Required.
                         'eventCategory': 'reading',   // Required.
                         'eventAction': 'Scrolled',      // Required.
-                        'eventLabel': percentsWindows[$i],
-                        'eventValue': 1
+                        'eventValue': percentsWindows[$i]
                     });
                     delete percentsWindows[$i];
                 }
             }
         });
 //        $("*:header").each(function () {
+        var headingValues = {
+            'h1': 10,
+            'h2': 8,
+            'h3': 6,
+            'h4': 4,
+            'h5': 2,
+            'h6': 1
+        }
         $("h1,h2,h3").each(function () {
             var $this = $(this);
             $this.one('inview', function (event, visible, topOrBottomOrBoth) {
@@ -255,9 +262,8 @@ function parse_resume($resume, $level = 1, $title = false)
                         'eventCategory': 'reading',   // Required.
                         'eventAction': 'Headings',      // Required.
                         'eventLabel': $this.text(),
-                        'eventValue': 1
+                        'eventValue': headingValues[$(this).get(0).tagName.toLowerCase()]
                     });
-                    console.log($(this).text())
                     // element is now visible in the viewport
                     if (topOrBottomOrBoth == 'top') {
                         // top part of element is visible
