@@ -7,6 +7,7 @@ It is quite generic resume creator. Idea is that it can generate Resume for any 
 Getting Started
 ----------------
 * Use composer to install it (composer install)
+* Then install assets using bower install
 * Edit resume.yml
 
 How it works?
