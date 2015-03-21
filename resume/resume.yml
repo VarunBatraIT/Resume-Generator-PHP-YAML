@@ -38,7 +38,7 @@ resume:
           - Description: "JSNOP friendly TringTrong is small node based SOA app for getting and retrieving geo data. It saves geo data in mongodb async and sync way"
         "[Organized Edx Download](https://github.com/VarunBatraIT/organized-edx-download)":
          - Technologies: "Python"
-         - Description: "Organized Videos within separate Week Directories"
+         - Description: "Organizes Videos within separate Week Directories"
         "[Bower Composer](https://github.com/VarunBatraIT/bower_composer)":
          - Technologies: "PHP,Bower,Composer"
          - Description: "Bootstrapping PHP project with the magic of bower and composer."
