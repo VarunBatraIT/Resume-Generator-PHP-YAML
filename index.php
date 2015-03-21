@@ -153,133 +153,15 @@ function parse_resume($resume, $level = 1, $title = false)
     //    ga('send', 'pageview');
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="//cdn.jsdelivr.net/jquery.inview/0.2/jquery.inview.min.js"></script>
 <script>
     $(document).ready(function (event) {
-        var body = $('body')
+        var $body = $('body')
         ga('send', 'pageview', {
-            'page': '/?theme=' + body.attr('data-theme')
+            'page': '/?theme=' + $body.attr('data-theme')
         });
-
-        var a = new RegExp('/' + window.location.host + '/');
-        $('a').each(function () {
-            if (!a.test(this.href)) {
-                $(this).click(function (event) {
-                    event.preventDefault();
-                    event.stopPropagation();
-                    window.open(this.href, '_blank');
-                });
-            }
-        });
-        $('a').click(function (event) {
-            var $this = $(this);
-            ga('send', {
-                'hitType': 'event',          // Required.
-                'eventCategory': 'link',   // Required.
-                'eventAction': 'click',      // Required.
-                'eventLabel': $this.attr('title') || $this.text(),
-                'eventValue': 1
-            });
-        })
-
-        $('a').mouseover(function (event) {
-            var $this = $(this);
-            ga('send', {
-                'hitType': 'event',          // Required.
-                'eventCategory': 'link',   // Required.
-                'eventAction': 'mouseover',      // Required.
-                'eventLabel': $this.attr('title') || $this.text(),
-                'eventValue': 1
-            });
-        })
-
-        //selected text
-
-        function getSelectedText() {
-            try {
-
-                if (window.getSelection) {
-                    return window.getSelection().toString();
-                } else if (document.selection) {
-                    return document.selection.createRange().text;
-                }
-            } catch (e) {
-                return '';
-            }
-            return '';
-        }
-
-        $(body).mouseup(function () {
-            var text = getSelectedText();
-            if (text != '') {
-                ga('send', {
-                    'hitType': 'event',          // Required.
-                    'eventCategory': 'text',   // Required.
-                    'eventAction': 'text selection',      // Required.
-                    'eventLabel': text,
-                    'eventValue': 10
-                });
-            }
-        });
-        var $window = $(window);
-        var viewPortHeight = window.innerHeight ? window.innerHeight : $window.height();
-        var windowHeight = $window.height();
-        var percentsWindows = []
-        for (var $i = 100; $i >= 0; $i = $i - 20) {
-            percentsWindows.unshift($i);
-        }
-        $(window).on('scroll', function () {
-            var endPoint = $window.scrollTop() + viewPortHeight;
-            var percentScrolled = (endPoint / windowHeight) * 100;
-            for (var $i = 0; $i <= percentsWindows.length; $i++) {
-                if (percentsWindows[$i] <= percentScrolled) {
-                    ga('send', {
-                        'hitType': 'event',          // Required.
-                        'eventCategory': 'reading',   // Required.
-                        'eventAction': 'Scrolled',      // Required.
-                        'eventValue': percentsWindows[$i]
-                    });
-                    delete percentsWindows[$i];
-                }
-            }
-        });
-//        $("*:header").each(function () {
-        var headingValues = {
-            'h1': 10,
-            'h2': 8,
-            'h3': 6,
-            'h4': 4,
-            'h5': 2,
-            'h6': 1
-        }
-        $("h1,h2,h3").each(function () {
-            var $this = $(this);
-            $this.one('inview', function (event, visible, topOrBottomOrBoth) {
-                var $this = $(this);
-                if (visible == true) {
-                    ga('send', {
-                        'hitType': 'event',          // Required.
-                        'eventCategory': 'reading',   // Required.
-                        'eventAction': 'Headings',      // Required.
-                        'eventLabel': $this.text(),
-                        'eventValue': headingValues[$(this).get(0).tagName.toLowerCase()]
-                    });
-                    // element is now visible in the viewport
-                    if (topOrBottomOrBoth == 'top') {
-                        // top part of element is visible
-                    } else if (topOrBottomOrBoth == 'bottom') {
-                        // bottom part of element is visible
-
-                    } else {
-                        // whole part of element is visible
-                    }
-                } else {
-                    // element has gone out of viewport
-                }
-            });
-        });
-    })
+    });
 </script>
+<script src="/bower_components/crazy-google-analytics/crazyGoogleAnalytics.js"></script>
 </body>
 
 </html>
