@@ -7,7 +7,7 @@ shuffle($themes);
 $theme = array_pop($themes);
 $spyc = new Spyc();
 $resume = $spyc->loadFile('./resume/resume.yml');
-$parser = new \cebe\markdown\GithubMarkdown();
+$parser = new \cebe\markdown\MarkdownExtra();
 extract($resume);
 $classes = $classes[rand(0, count($classes) - 1)];
 
@@ -44,10 +44,18 @@ function add_links($string)
 
 }
 
-function meaningful_words($string, $words)
+function bold_words($string, $words)
 {
     foreach ($words as $word) {
         $string = str_replace($word, "<b>$word</b>", $string);
+    }
+    return $string;
+}
+
+function italic_words($string, $words)
+{
+    foreach ($words as $word) {
+        $string = str_replace($word, "<em>$word</em>", $string);
     }
     return $string;
 }
@@ -60,13 +68,14 @@ function parse_resume($resume, $level = 1, $title = false)
     if ($level > 6) {
         $level = 6;
     }
-    global $meaningful_words;
+    global $bold_words;
+    global $italic_words;
 
     if (is_string($resume)) {
         if ($title) {
-            $toReturn .= '<h' . $level . ' class="' . add_class($level, 'title') . '">' . $resume . '</h' . $level . '>';
+            $toReturn .= '<h' . $level . ' id="' . preg_replace("/[^a-zA-Z0-9]+/", "", strip_tags($resume)) . '" class="' . add_class($level, 'title') . '">' . $resume . '</h' . $level . '>';
         } else {
-            $toReturn .= meaningful_words(add_links($resume), $meaningful_words);
+            $toReturn .= italic_words(bold_words(add_links($resume), $bold_words), $italic_words);
         }
 
     }
@@ -159,6 +168,21 @@ function parse_resume($resume, $level = 1, $title = false)
         ga('send', 'pageview', {
             'page': '/?theme=' + $body.attr('data-theme')
         });
+        hashLinkTest = window.location.href.split('#')[0];
+        //hash links looks different
+        $('a').each(function () {
+            var omitLink = this.href.split(hashLinkTest)[1];
+            if (typeof omitLink == 'undefined') {
+                return true;
+            }
+            if (omitLink[0] == '#') {
+                //hash link
+                $(this).css({
+                    color: '#00C',
+                    textDecoration: 'underline'
+                });
+            }
+        })
     });
 </script>
 <script src="/bower_components/crazy-google-analytics/crazyGoogleAnalytics.js"></script>

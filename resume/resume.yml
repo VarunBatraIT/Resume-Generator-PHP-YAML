@@ -142,8 +142,8 @@ resume:
       - m.Naukri.com: Job Portal Developed mobile version of naukri.com website using "Job Search API" provided by them and used Yahoo Blueprints during my stint at Naukri (InfoEdge India) as a consultant.
   Interests:
     - Reading Blogs
-    - Coding
     - Chess
+    - [Coding](#NotableOpenSourceWorkhttpsgithubcomVarunBatraITtabrepositories "My Projects")
     - Documentaries
     - Biking
   Education:
@@ -151,7 +151,8 @@ resume:
         - **(2005-2009)** Kurukshetra, Haryana, India
   RECOMMENDATIONS:
     - Various recommendations/testimonials from my past clients are available on my LinkedIn Profile.
-meaningful_words:
+bold_words:
+  - Download Resume
   - REST
   - BDD
   - Design Patterns
@@ -162,6 +163,8 @@ meaningful_words:
   - coding styles
   - LinkedIn Profile
   - Taken Technical interviews
+italic_words:
+  - Download Resume
 classes:
   -
     2:
