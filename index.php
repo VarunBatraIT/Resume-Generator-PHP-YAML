@@ -5,6 +5,7 @@
 $themes = array('a', 'b');
 shuffle($themes);
 $theme = array_pop($themes);
+$theme = 'a';
 $spyc = new Spyc();
 $resume = $spyc->loadFile('./resume/resume.yml');
 $parser = new \cebe\markdown\MarkdownExtra();
@@ -182,6 +183,16 @@ function parse_resume($resume, $level = 1, $title = false)
                     textDecoration: 'underline'
                 });
             }
+        });
+        var hiddenText = $.parseJSON('<?=json_encode($hidden)?>');
+        $.each(hiddenText, function (key, value) {
+            var ele = $('a:contains(' + key + ')');
+            ele.attr('data-replace', ele.text()).text(value).addClass('replace')
+        });
+        $('.replace').one('click', function (event) {
+            event.preventDefault();
+            var $this = $(this);
+            $this.text($this.attr('data-replace'))
         })
     });
 </script>

@@ -8,7 +8,7 @@ profile:
   website: "http://varunbatra.com/"
   company: "Deft Infotech Pvt. Ltd."
   contact:
-    - [Skype](skype:VarunBatraIT "Add Varun to Skype")
+    - [Skype:VarunBatraIT](skype:VarunBatraIT "Add Varun to Skype")
     - [+918130537533](tel:+918130537533)
     - [CodeVarun@Gmail.com](mailto:codevarun@gmail.com?subject=Found%20you%20through%20your%20Resume%20Site)
   links:
@@ -174,3 +174,7 @@ classes:
 links:
   'LinkedIn Profile': 'https://www.linkedin.com/in/varunbatrait'
   'BRS Generation': 'https://github.com/VarunBatraIT/BRS_Creator'
+hidden:
+  'Skype': 'Show Skype'
+  '+918130537533': 'Show Mobile'
+  'CodeVarun@Gmail.com' : 'Show Email'
