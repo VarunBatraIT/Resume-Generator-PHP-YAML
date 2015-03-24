@@ -128,6 +128,13 @@ function parse_resume($resume, $level = 1, $title = false)
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 </head>
+<style>
+    .link {
+        cursor: pointer;
+        text-decoration: underline;
+        color: blue;
+    }
+</style>
 <body data-theme="<?= $theme ?>">
 <br/>
 <br/>
@@ -187,13 +194,21 @@ function parse_resume($resume, $level = 1, $title = false)
         var hiddenText = $.parseJSON('<?=json_encode($hidden)?>');
         $.each(hiddenText, function (key, value) {
             var ele = $('a:contains(' + key + ')');
-            ele.attr('data-replace', ele.text()).text(value).addClass('replace')
+            ele.addClass('hidden').addClass('intentHidden');
+            $('<span></span>').addClass('link').text(value).insertAfter(ele).on('click', function (event) {
+                var $this = $(this);
+                var link = $this.siblings('a.intentHidden');
+                link.removeClass('hidden');
+                $this.addClass('hidden');
+                ga('send', {
+                    'hitType': 'event',
+                    'eventCategory': 'view',
+                    'eventAction': $this.text(),
+                    'eventLabel': link.text(),
+                    'eventValue': 1
+                });
+            })
         });
-        $('.replace').one('click', function (event) {
-            event.preventDefault();
-            var $this = $(this);
-            $this.text($this.attr('data-replace'))
-        })
     });
 </script>
 <script src="/bower_components/crazy-google-analytics/crazyGoogleAnalytics.js"></script>
