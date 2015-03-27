@@ -30,8 +30,11 @@ resume:
           - Communicated with Developers on a daily basis (**SCRUM Meetings**) and made forward looking productive plans, thus anticipating the forthcoming challenges and accordingly guiding them (or researched for the same).
           - Taken Technical interviews for various companies like The Ti Group, DotSquares, Scientech IT Solutions, Logic Spice and more
       "Notable [OpenSource Work](https://github.com/VarunBatraIT?tab=repositories)":
+        "[BetterRate](https://github.com/VarunBatraIT/BetterRate)":
+          - Technologies: "Ruby, jQuery, Rails"
+          - Description: "Ruby on Rails wrapper for Raty plugin, supports sorting with overall avg, auto updates when page content changes, turbolink, wiselink compatible"
         "[crazyGoogleAnalytics](https://github.com/VarunBatraIT/crazyGoogleAnalytics)":
-          - Technologies: "coffeescript, javascript"
+          - Technologies: "CoffeeScript, javascript"
           - Description: "Tracks most common information about a webpage and how user interacting with it. Like read percent, text selection, clicking on links, how big page is and more."
         "[TringTrong](https://github.com/VarunBatraIT/TringTrong)":
           - Technologies: "Node.js"
@@ -42,7 +45,7 @@ resume:
         "[Bower Composer](https://github.com/VarunBatraIT/bower_composer)":
          - Technologies: "PHP,Bower,Composer"
          - Description: "Bootstrapping PHP project with the magic of bower and composer."
-        "[jQuery.hurt.js](https://github.com/VarunBatraIT/jquery.hurt.js)":
+        "[jQuery.hurt.js](https://github.com/VarunBatraIT/jQuery.hurt.js)":
          - Technologies: "jQuery"
          - Description: "A small plugin to warn people when using swear words."
         "[DeftCart](https://github.com/VarunBatraIT/DeftCart)":
