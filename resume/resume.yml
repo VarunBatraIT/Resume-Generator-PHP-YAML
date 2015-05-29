@@ -63,7 +63,7 @@ resume:
           - "_Libraries and Frameworks:_ Rails, YII, Symfony2, Sails.js, Twig, jQuery, jQuery-ui, Twitter Bootsrap, Polymer"
           - "_Caching:_ Memoization, APC, File Cache, Fragment Cache, Database Cache, Russian Doll"
           - "_DBMS:_ MySQL, MongoDB"
-          - "_Methodologies:_ BDD, TDD, OOPs, Design Patterns, Agile, Continuous Integration, A/B Testing, [SOA](https://en.wikipedia.org/wiki/Service-oriented_architecture)"
+          - "_Methodologies:_ BDD, TDD, OOPs, Design Patterns, Lean, Agile, Continuous Integration, A/B Testing, [SOA](https://en.wikipedia.org/wiki/Service-oriented_architecture)"
           - "_Cloud Experience:_ CloudFlare CDN, DigitalOcean, Linode"
           - "Also have past experience in Dojo, Mootools, Redis, Python, Memcache, Silex, Zend Framework"
   "Experience":
@@ -139,6 +139,7 @@ resume:
           - Speaking directly to clients for requirements
           - Creating and Managing Various Website
   Notable Projects as a Coder:
+      - StuMento.com: A platform that connects tutors and students. MVP was only 2.5 weeks thanks to Rails. Following lean development, concentrating only on feature which are very important and dropping everything else off.
       - CourseFinders.com: Ultimate database of Schools focusing on learning new language in foreign countries. Designed Architecture with distributed databases. Bootstrapping the Web Application in YII for its RBAC, Caching APIs and implemented Google Maps API loading results through AJAX with zoom in/out depending on the area of map visible. Used BDD using Behat. Implemented advanced search hints using Solr which changes in background of image per country.
       - Trumin: Tool to manage races, track time and record results. Made architecture, Bootstrapping the Application & optimized codes for handling high traffic for one day registration in Symfony2 using various caching techniques. Setup server with LAMP in Amazon AWS. This is a Server-Client model, a client which would be run in 5 to 10 laptops communicating with a center database where race would happen and it would communicate with trumin.com using REST API to verify registrations, purchases and to signing of a waiver.
       - MightyApe.co.nz: eCommerce website; Bootstrapping custom shopping cart using Zend Modules. Created custom backend for vendors and super admin. Setup the server with LEMP and Varnish.
@@ -160,6 +161,7 @@ bold_words:
   - BDD
   - Design Patterns
   - Agile
+  - Lean
   - Varnish
   - LAMP
   - LEMP
